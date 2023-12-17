@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b188b926c5.js" crossorigin="anonymous"></script>
+    <script src="js/productos.js" defer></script>
+
+</head>
+<body>
+
+
+
+    <div class="contenedor main-table">
+
+
+        <div class="main-form">
+            <form class="form" action="" id="form" >
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label titulo">Titulo</label>
+                    <input type="text" class="form-control" id="titulo" >
+                </div>
+                <div class="mb-3">d
+                    <label for="exampleFormControlInput1" class="form-label titulo">Precio</label>
+                    <input type="number" class="form-control" id="precio" >
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label titulo">Descripcion</label>
+                    <textarea class="form-control" id="descripcion" rows="3"></textarea>
+                </div>
+    
+                <button onclick="crearProducto()" type="button" class="btn btn-primary boton p-4">Primary</button>
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+            <table class="table table-hover table-bordered align-middle caption-top">
+                <caption>Productos </caption>
+                <thead>
+                    <tr class="table-dark">
+                        <th>Titulo</th>
+                        <th>Apellido</th>
+                        <th>Descripcion</th>
+                        <th>Accion</th>
+                    </tr>
+                </thead>
+                    <tbody id="dataInfo">
+                        <!-- <tr >
+                            <td>Santo</td>
+                            <td>Cardona</td>
+                            <td>Santo@correo.com</td>
+                            <td class="boton" ><button >Eliminar</button></td>
+                        </tr> -->
+                        
+                    </tbody>
+                
+            </table>
+
+            </div>
+        </div>
+    </div>
+
+   
+
+
+
+
+
+
+
+
+
+    
+</body>
+
+</html>
